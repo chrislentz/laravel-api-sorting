@@ -1,0 +1,27 @@
+{
+	"name": "chrislentz/laravel-api-sorting",
+	"description": "A sorting package that provides Eloquent 'orderBy' support via a '_sort' URL parameter for the Laravel framework.",
+	"keywords": [
+        "api",
+        "eloquent",
+        "laravel",
+        "sort",
+        "sorting"
+    ],
+	"require": {
+		"php": ">=7.0",
+		"illuminate/support": ">=5.4.0"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Chris Lentz",
+			"email": "chris.atlchris@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"ChrisLentz\\LaravelApiSorting\\": "src/"
+		}
+	}
+}
